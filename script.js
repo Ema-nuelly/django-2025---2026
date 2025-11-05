@@ -1,6 +1,6 @@
 // Highlight the current navigation link
 document.addEventListener('DOMContentLoaded', function () {
-    const links = document.querySelectorAll('.nav-link');
+    const links = document.querySelectorAll('.link-nav');
     links.forEach(link => {
         if (window.location.pathname.endsWith(link.getAttribute('href'))) {
             link.style.background = '#fff176';

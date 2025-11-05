@@ -1,44 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home - My Website</title>
+    <title>Aulinhas da Manu</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body class="site-body">
-    <header class="site-header" id="main-header">
-        <h1 class="site-title">Aulas de Alfabetização e Inglês Básico</h1>
-        <nav class="main-nav" id="main-nav">
-            <ul class="nav-list">
-                <li><a href="index.html" class="nav-link" id="nav-inicio">Início</a></li>
-                <li><a href="sobre.html" class="nav-link" id="nav-sobre">Sobre Mim</a></li>
-                <li><a href="contato.html" class="nav-link" id="nav-contato">Contato</a></li>
-            </ul>
-        </nav>
+<body class="corpo-site"> <!-- Corpo do site -->
+    <header class="cabecalho-site" id="main-header"> <!-- "Id" para o JavaScript -->
+        <h1 class="titulo-site">Aulas de Alfabetização e Inglês Básico</h1> <!-- Título do site -->
     </header>
-    <main class="main-content" id="main-content">
-        <section class="intro-section" id="intro">
-            <h2 class="section-title">Aprenda de forma divertida!</h2>
-            <p class="section-description">Ofereço aulas de alfabetização e inglês básico para crianças e adolescentes. Ensino personalizado, focado no desenvolvimento de cada aluno, com atividades lúdicas e interativas.</p>
-        </section>
-        <section class="package-section" id="pacote">
-            <h3 class="section-subtitle">Pacote Especial</h3>
-            <ul class="package-list">
-                <li class="package-item">8 aulas (2 por semana)</li>
-                <li class="package-item">Valor: R$120,00 por pacote</li>
-                <li class="package-item">Material incluso</li>
-                <li class="package-item">Aulas presenciais ou online</li>
-            </ul>
-        </section>
-        <section class="contact-section" id="contato">
-            <h3 class="section-subtitle">Entre em Contato</h3>
-            <p class="contact-email">Email: seuemail@email.com</p>
-            <p class="contact-whatsapp">WhatsApp: (99) 99999-9999</p>
-        </section>
-    </main>
-    <footer class="site-footer" id="main-footer">
-        <p class="footer-text">&copy; 2024 Aulas de Alfabetização e Inglês Básico. Todos os direitos reservados.</p>
+    <div class="container-flex"> <!-- Container flexível para layout -->
+        <div class="imagem-lado"> <!-- Div para imagem lateral -->
+            <img src="imagem-aula.jpg" alt="Professora e aluna com letras" class="img-aula"> <!-- Imagem representativa -->
+        </div>
+        <main class="conteudo-principal" id="main-content">
+            <section class="secao-intro" id="intro"> 
+                <h2 class="titulo-secao">Aprenda de forma divertida!</h2> <!-- Título da seção -->
+                <p class="descricao-secao">Ofereço aulas de alfabetização e inglês básico para crianças e adolescentes. Ensino personalizado, focado no desenvolvimento de cada aluno, com atividades lúdicas e interativas.</p> <!-- Descrição da seção -->
+            </section>
+            <section class="secao-pacote" id="pacote">
+                <h3 class="subtitulo-secao">Pacote Especial</h3> 
+                <ul class="lista-pacote"> <!-- Lista de itens do pacote -->
+                    <li class="item-pacote">8 aulas (2 por semana)</li>
+                    <li class="item-pacote">Valor: R$120,00 por pacote</li>
+                    <li class="item-pacote">Material incluso</li>
+                    <li class="item-pacote">Aulas presenciais ou online</li>
+                </ul>
+            </section>
+            <section class="secao-contato" id="contato">
+                <h3 class="subtitulo-secao">Entre em Contato</h3> 
+                <p class="email-contato">Email: manudecassia4567@email.com</p> 
+                <p class="whatsapp-contato">WhatsApp: (87) 99622-2499</p>
+            </section>
+        </main>
+    </div>
+    <footer class="rodape-site" id="main-footer"> 
+        <p class="texto-rodape">&copy; 2024 Aulas de Alfabetização e Inglês Básico. Todos os direitos reservados.</p> <!-- Texto do rodapé -->
     </footer>
-    <script src="script.js"></script>
+    <script src="script.js"></script> <!-- Link para o arquivo JavaScript -->
 </body>
 </html>
