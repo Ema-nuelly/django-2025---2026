@@ -1,4 +1,3 @@
-// Highlight the current navigation link
 document.addEventListener('DOMContentLoaded', function () {
     const links = document.querySelectorAll('.link-nav');
     links.forEach(link => {
@@ -8,7 +7,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    // Fade-in effect for sections
     const sections = document.querySelectorAll('section');
     const fadeInOnScroll = () => {
         sections.forEach(section => {
@@ -18,8 +16,6 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     };
-    // Initial check
     fadeInOnScroll();
-    // On scroll
     window.addEventListener('scroll', fadeInOnScroll);
 });
