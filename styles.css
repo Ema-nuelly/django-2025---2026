@@ -24,6 +24,8 @@
 }
 
 .nav-principal {
+    margin-top: 16px;
+    margin-bottom: 0;
     /* ...existing code for nav... */
 }
 
@@ -83,7 +85,6 @@
 
 .conteudo-principal {
     flex: 1 1 0;
-    /* aumentado em relação à imagem */
     max-width: none;
     margin: 0;
     background: #fffde7;
@@ -94,7 +95,6 @@
     flex-direction: column;
     justify-content: stretch;
     min-width: 0;
-    height: 100%;
 }
 
 .secao-intro,
